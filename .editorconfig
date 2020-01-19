@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Editor configuration, see http://editorconfig.org
+=======
+# Editor configuration, see https://editorconfig.org
+>>>>>>> f987489254a231685d1e8f7f895d2478f7782125
 root = true
 
 [*]

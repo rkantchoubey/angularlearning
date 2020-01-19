@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+<<<<<<< HEAD
 import { FormsModule } from '@angular/forms';
 
 
@@ -29,6 +30,19 @@ import { ShoppingListService } from './shared/shopping-list.service';
     FormsModule,
   ],
   providers: [ShoppingListService],
+=======
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+>>>>>>> f987489254a231685d1e8f7f895d2478f7782125
   bootstrap: [AppComponent]
 })
 export class AppModule { }

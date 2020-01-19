@@ -9,4 +9,8 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
+<<<<<<< HEAD
   .catch(err => console.log(err));
+=======
+  .catch(err => console.error(err));
+>>>>>>> f987489254a231685d1e8f7f895d2478f7782125
